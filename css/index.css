@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(40, 14, 91);
+}
+.navbar a{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.navbar a:hover{
+    color: #25cff2;
+}
+.navbar a::after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:0;
+    height: 1.5px;
+    background-color: #25cff2;
+    transition: width 0.3s ease;
+}
+.navbar a:hover::after{
+    width:55%;
+}
+.navbar-brand{
+    font-size: 27px;
+}
+
+.para{
+    display: block;
+    color: white;
+    font-size: 25px;
+    margin-top: 130px;
+}
+.para h1{
+    color: #25cff2;
+    font-size: 40px;
+}
+.title{
+    font-size: 40px;
+}
+.para1 img{
+    position: absolute;
+    width:500px;
+    height: 400px;
+    top:21%;
+    left:30%;
+
+}
+.typing-h3::after{
+    content: '';
+    animation: blink 0.6s infinite;
+}
+@keyframes blink{
+    50%{opacity:0;}
+}
+
+#col1{
+    background-color: rgb(20, 233, 233);
+    width:500px;
+    height:580px;
+}
+.card{
+    background-color: rgb(20, 233, 233);
+    width:400px;
+    height: 450px;
+    left:200px;
+}
+#card-img{
+    width:250px;
+    height: 200px;
+    border-radius: 55%;
+}
+#col2{
+    margin-left:230px;
+    color: white;
+}
+.about-para{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+#resume-para{
+    color:white;
+}
+#resume-para h1{
+    color:#25cff2;
+    font-size: xx-large;
+}
+#resume-para p{
+    font-size: large;
+    text-align: center;
+}
+.section-title {
+    margin-top: 80px;   
+    margin-bottom: 30px; 
+    text-align: center;
+    color: #25cff2;
+    font-weight: bold;
+}
+.card:hover {
+    transform: translateY(-8px);
+    transition: 0.4s;
+    box-shadow: 0 8px 20px rgba(37, 207, 242, 0.4);
+}
+.card {
+    width: 430px; 
+    max-width: 100%;
+    left:100px;  
+}
+
+.contact-container {
+    width: 60%;
+    margin: auto;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:black;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background: #181818;
+    color: white;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.send-btn {
+    background: #25cff2;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+    }
+}

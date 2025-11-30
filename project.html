@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORTFOLIO WEBSITE</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-xl mt-2 mb-2" data-aos="fade-down">
+        <a class="navbar-brand" href="#">MyPortfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="links">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+    <div class="container py-4 px-4">
+  <h1 class="mb-5 text-center text-info" data-aos="fade-up">PROJECTS</h1>
+
+  <div class="row g-4">
+    <div class="col-md-6 col-sm-12 " data-aos="fade-up">
+      <div class="card bg-dark text-light h-100 border-info">
+        <div class="card-body">
+          <h4 class="card-title text-info">AI-Based Classification and Detection of Higher Stress Levels</h4>
+          <p><b>Technologies:</b> Python, Flask, Machine Learning, MySQL</p>
+          <p><b>Description:</b> Developed an AI-powered stress detection system capable of analyzing student behavior patterns and predicting elevated stress levels. The project integrates Python-based machine learning models with a Flask web application to process student input data, evaluate emotional indicators, and classify stress categories. It includes modules for administrators, students, and faculty for monitoring stress trends, viewing risk scores, and generating analytical insights. The emotion-detection component assists teachers in identifying early warning signs, enabling timely intervention and improved mental-health support.</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <a href="#" class="btn btn-outline-info w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+      <div class="card bg-dark text-light h-100 border-info">
+        <div class="card-body">
+          <h4 class="card-title text-info">Smart Parking System</h4>
+          <p><b>Technologies:</b> Java, JDBC, MySQL</p>
+          <p><b>Description:</b> Designed and developed a Smart Parking Management System that enables users to track and reserve available parking spaces in real time. The backend, built using Java and JDBC, manages core functionalities including slot allocation, user authentication, entry/exit monitoring, and automated billing. A MySQL database handles parking-slot metadata, reservation details, and administrative configurations. The system also features an admin dashboard for managing users, updating pricing, and overseeing system performance, improving urban parking efficiency and reducing congestion.</p>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <a href="#" class="btn btn-outline-info w-100">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+    </script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
+
