@@ -1,6 +1,6 @@
-Project Title : Building a Portfolio website
-Description: A clean, responsive, and modern Portfolio Website built using HTML, CSS, Bootstrap, and JavaScript,Designed and developed in VS Code.
-Features:
+#Project Title : Building a Portfolio website
+#Description: A clean, responsive, and modern Portfolio Website built using HTML, CSS, Bootstrap, and JavaScript,Designed and developed in VS Code.
+#Features:
       Fully Responsive Design (Bootstrap Grid System)
 
       Smooth Scroll Animations
@@ -10,7 +10,7 @@ Features:
       Custom CSS Enhancements
 
       JavaScript Interactivity
-Technologies used:
+#Technologies used:
       Technology	Purpose
       
       HTML5	Structure of the website
